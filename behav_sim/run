@@ -1,0 +1,4 @@
+#!/bin/sh
+
+vcs -full64 ../rtl/rca_64bit.v rca_64bit_tb.v +v2k -debug_all -top rca_64bit_tb \
+  -timescale=1ns/1ps
